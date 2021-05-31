@@ -7,3 +7,13 @@ body{
 #logo-brand{
     height: 60px;
 }
+
+#mainNav > div > a{
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 599px){
+    #mainNav > div > a {
+    width: 64%;
+}}
