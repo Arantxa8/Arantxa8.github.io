@@ -58,7 +58,7 @@
         width: $circleSize + px;
         height: $circleSize + px;
   
-        $startPositionY: random(10) + 100;
+        $startPositionY: random(10) - 100;
         $framesName: "move-frames-" + $i;
         $moveDuration: 28000 + random(9000) + ms;
   
@@ -69,7 +69,7 @@
         @keyframes #{$framesName} {
           from {
             transform: translate3d(
-              #{random(100) + vw},
+              #{-random(100) + vw},
               #{$startPositionY + vh},
               0
             );
@@ -78,14 +78,14 @@
           to {
             transform: translate3d(
               #{random(100) + vw},
-              #{- $startPositionY - random(30) + vh},
+              #{- $startPositionY - random(50) + vh},
               0
             );
           }
         }
   
         .circle {
-          animation-delay: random(2000) + ms;
+          animation-delay: random(1000) + ms;
         }
       }
     }
