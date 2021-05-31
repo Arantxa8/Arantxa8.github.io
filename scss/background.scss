@@ -1,6 +1,6 @@
 .circle-container {
     $particleNum: 200;
-    $particleColor: hsl(180, 100%, 80%);
+    $particleColor: hsl(0, 100%, 100%);
   
     position: absolute;
     transform: translateY(-10vh);
@@ -13,8 +13,8 @@
       border-radius: 50%;
       mix-blend-mode: screen;
       background-image: radial-gradient(
-        hsl(180, 100%, 80%),
-        hsl(180, 100%, 80%) 10%,
+        hsl(0, 100%, 100%),
+        hsl(0, 100%, 100%) 10%,
         hsla(180, 100%, 80%, 0) 56%
       );
   
@@ -85,7 +85,7 @@
         }
   
         .circle {
-          animation-delay: random(4000) + ms;
+          animation-delay: random(3000) + ms;
         }
       }
     }
