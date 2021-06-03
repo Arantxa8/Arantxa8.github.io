@@ -21,3 +21,9 @@ body{
 #MTA{
     height: 8rem;
 }
+
+svg{
+    height: 8rem;
+    width: auto;
+    padding: 1.5rem;
+}
