@@ -19,11 +19,19 @@ body{
 }}
 
 #MTA{
-    height: 8rem;
+    height: 12rem;
+    width: auto;
+    padding-bottom: 1rem;
 }
 
-svg{
-    height: 8rem;
+.d-flex.flex-wrap > svg{
+    height: auto;
+    width: 7rem;
+    padding: 1rem;
+}
+
+.contact-logo{
+    height: 2rem;
     width: auto;
-    padding: 1.5rem;
+    margin-top: 0.75rem;
 }
