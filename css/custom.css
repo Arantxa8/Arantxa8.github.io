@@ -5,7 +5,8 @@ body{
 
 }
 #logo-brand{
-    height: 60px;
+    height: 50px;
+    width: auto;
 }
 
 #mainNav > div > a{
@@ -34,4 +35,12 @@ body{
     height: 2rem;
     width: auto;
     margin-top: 0.75rem;
+}
+
+.col-md-4.col-sm-6.gallery-grid{
+    position: relative;
+}
+
+.hoverbutton.global-radius > a:hover{
+    transform: scale(1.3);
 }
