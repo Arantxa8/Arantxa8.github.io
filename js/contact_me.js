@@ -22,7 +22,15 @@ $(function() {
       $.ajax({
         url: "https://formspree.io/f/mzbyroqd",
         type: "POST",
-        data: $(this).serialize(),
+        data: {
+          name: name,
+          phone: phone,
+          _replyto: email,
+          email: email,
+          message: message,
+          _subject: "Form from the github web"
+        },
+        dataType: "json",
         cache: false,
         success: function() {
           // Success message
