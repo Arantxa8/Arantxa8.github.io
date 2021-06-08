@@ -31,7 +31,7 @@ $(function() {
           _subject: "Form from the github web"
         },
         dataType: "json",
-        cache: false,
+        //cache: false,
         success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
