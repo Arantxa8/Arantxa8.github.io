@@ -1,50 +1,54 @@
-
 /** ADD YOUR AWESOME CODES HERE **/
-body{
-    overflow-x: hidden;
-
+body {
+  overflow-x: hidden;
 }
-#logo-brand{
-    height: 50px;
-    width: auto;
-}
-
-#mainNav > div > a{
-    padding: 0;
-    margin: 0;
+#logo-brand {
+  height: 50px;
+  width: auto;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 599px){
-    #mainNav > div > a {
+#mainNav > div > a {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+  #mainNav > div > a {
     width: 64%;
-}}
-
-#MTA{
-    height: 12rem;
-    width: auto;
-    padding-bottom: 1rem;
+  }
 }
 
-.d-flex.flex-wrap > svg{
-    height: auto;
-    width: 7rem;
-    padding: 1rem;
+#MTA {
+  height: 12rem;
+  width: auto;
+  padding-bottom: 1rem;
 }
 
-.contact-logo{
-    height: 2rem;
-    width: auto;
-    margin-top: 0.75rem;
+.d-flex.flex-wrap > svg {
+  height: auto;
+  width: 7rem;
+  padding: 1rem;
 }
 
-.col-md-4.col-sm-6.gallery-grid{
-    position: relative;
+.contact-logo {
+  height: 2.5rem;
+  width: auto;
+  margin-top: 0.75rem;
 }
 
-.hoverbutton.global-radius > a:hover{
-    transform: scale(1.3);
+.contact-logo:hover {
+  transform: scale(1.3);
 }
 
-#contact-logos{
-    text-align:center;
+.col-md-4.col-sm-6.gallery-grid {
+  position: relative;
+}
+
+.hoverbutton.global-radius > a:hover {
+  transform: scale(1.3);
+}
+
+#contact-logos {
+  text-align: center;
+  display: block;
 }
