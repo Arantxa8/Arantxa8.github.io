@@ -44,3 +44,7 @@ body{
 .hoverbutton.global-radius > a:hover{
     transform: scale(1.3);
 }
+
+#contact-logos{
+    text-align:center;
+}
