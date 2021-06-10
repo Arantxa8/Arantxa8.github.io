@@ -2425,7 +2425,7 @@ select.mobile-device {
   animation: rotate 3s ease-in-out infinite;
   transform: rotate(-200deg)
 } */
-/* @keyframes rotate {
+@keyframes rotate {
   0% { border-width: 10px; }
   25% { border-width: 3px; }
   50% { 
@@ -2434,7 +2434,7 @@ select.mobile-device {
   }
   75% { border-width: 3px;}
   100% { border-width: 10px;}
-} */
+}
 
 /*------------------------------------------------------------------
     BUTTONS
